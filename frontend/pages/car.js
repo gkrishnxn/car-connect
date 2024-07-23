@@ -27,7 +27,7 @@ const CarPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="relative bg-[url(https://images.unsplash.com/photo-1459603677915-a62079ffd002?q=80&w=1834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-no-repeat pb-24">
+      <div className="relative bg-[url(https://images.unsplash.com/photo-1459603677915-a62079ffd002?q=80&w=1834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center bg-no-repeat pb-28">
         <Hero />
         <SearchBar
           model={model}
@@ -45,7 +45,7 @@ const CarPage = () => {
       </div>
       <main className="flex flex-wrap justify-center items-center gap-4 p-4">
         {cars.length === 0 ? (
-          <img src='https://cdn.dribbble.com/users/665029/screenshots/16162764/media/3ea69cb1655fba401acc6c4328d38633.gif' className='w-1/2 h-1/4'/>
+          <img src='https://cdn.dribbble.com/users/2382015/screenshots/6065978/media/8b4662f8023e4e2295f865106b5d3aa7.gif' className='w-1/2 h-1/4'/>
         ) : (
           cars.map((car, index) => (
             <FlipCard key={index} data={car} />

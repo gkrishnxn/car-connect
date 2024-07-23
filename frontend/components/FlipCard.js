@@ -25,7 +25,7 @@ const FlipCard = ({ data }) => {
             <p className="my-2"><b>Transmission:</b> {data.transmission}</p>
             <p className="my-2"><b>Location:</b> {data.location}</p>
             <button
-              className="bg-teal-500 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-5 scale-0 group-hover:scale-125"
+              className="bg-orange-700 px-6 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-5 scale-0 group-hover:scale-125"
               onClick={handleButtonClick}
             >
               Go to page
