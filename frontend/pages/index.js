@@ -25,7 +25,7 @@ const Index = () => {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
-        <Link className="group relative inline-block focus:outline-none focus:ring" href="/cars">
+        <Link className="group relative inline-block focus:outline-none focus:ring" href="/car">
         <span
         className="absolute inset-0 translate-x-0 translate-y-0 bg-orange-700 transition-transform group-hover:translate-x-1.5 group-hover:translate-y-1.5"
         />
