@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero-bg{
+    background-repeat: no-repeat;
+    background-position: center;width: 100%;
+    background-size: cover;
+    background-image:url('http:localhost:3000/images/volkswagen-polo-off-road-variant-launch-5.jpg')
+}
